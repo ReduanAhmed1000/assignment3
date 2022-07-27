@@ -8,3 +8,45 @@
       color: white;
 
 }
+
+
+@media screen and (max-width: 576px) {
+    
+       .large{
+
+            display: none;
+
+
+       }
+
+      
+
+}
+
+
+@media screen and (min-width:577px) {
+    
+    .mobile{
+
+         display: none ;
+
+
+    }
+
+
+}
+
+
+.mobile{
+
+      position: relative;
+      left: 20%; 
+
+}
+
+
+.large{
+
+    margin: 0 auto;
+
+}
